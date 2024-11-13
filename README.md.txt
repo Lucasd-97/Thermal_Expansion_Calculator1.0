@@ -2,7 +2,7 @@
 Video url: TBD
 Description:
 
-	The app I have made is used to calculate thermal expansion of various materials. You can calculate expansion using size and temp change, temp needed for a size to expand a certain amount, and size needed for a certain temp change and expansion. The app is only intended for use for a couple hundred degrees around zero, coefficients change quite a bit out of that range. Should be fairly accurate close to zero degrees. App only works with coefficients of 12^-6 Kelvin.
+	The app I have made is used to calculate thermal expansion of various materials. You can calculate expansion using size and temp change, temp needed for a size to expand a certain amount, and size needed for a certain temp change and expansion. The app is only intended for use for a couple hundred degrees around zero, coefficients change quite a bit out of that range. Should be fairly accurate close to zero degrees. App only works with coefficients of 10^-6 Kelvin.
 	Having a bit of history with shrink fitting metals, I decided a calculator would be useful / interesting. Seemed like a decent option, as I wanted to make an app of some sort, and had thought of different design choices for quite a while. Therefore I created my app with Android Studio in Java.
 	Starting out, I knew I wanted a data system that could be added to and removed from by the user. After a little research, I settled on a SQLite database for thermal expansion coefficients, and a shared preferences to store users preferred units of measurement. I watched a Youtube tutorial for Android Studio Java app development, then a Youtube tutorial for SQLite database in Android Studio.
 With a fair bit of Googling and trial and error I got both functioning correctly.
