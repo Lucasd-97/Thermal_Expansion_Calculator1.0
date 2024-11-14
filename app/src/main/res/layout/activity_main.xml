@@ -22,11 +22,11 @@
         android:layout_width="200dp"
         android:layout_height="30dp"
         android:layout_marginTop="30dp"
-        android:inputType="text"
-        android:visibility="visible"
         android:hint="Result"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="@+id/Expansion"
         app:layout_constraintTop_toBottomOf="@+id/Expansion" />
 
     <Button
@@ -43,36 +43,36 @@
 
     <EditText
         android:id="@+id/Size"
-        android:hint="Size"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="85dp"
         android:ems="10"
+        android:hint="Size"
         android:inputType="number|numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/metaltype" />
 
     <EditText
         android:id="@+id/Temp"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="85dp"
-        android:hint="Temp"
         android:ems="10"
+        android:hint="Temp"
         android:inputType="number|numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Size" />
 
     <EditText
         android:id="@+id/Expansion"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="85dp"
-        android:hint="Expansion"
         android:ems="10"
+        android:hint="Expansion"
         android:inputType="number|numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Temp" />

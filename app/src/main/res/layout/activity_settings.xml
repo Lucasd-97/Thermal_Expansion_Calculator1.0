@@ -242,7 +242,7 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="12^-6 K"
+        android:text="x10^-6 K"
         android:textColor="?attr/colorSecondaryFixed"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/enterexpansion"
